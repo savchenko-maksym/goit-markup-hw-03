@@ -152,7 +152,6 @@ img {
   margin: 0 auto;
   margin-bottom: 48px;
   max-width: 496px;
-  min-width: 169px;
 }
 
 .main-title-btn {
@@ -168,6 +167,7 @@ img {
   padding: 16px 32px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   border: none;
+  min-width: 169px;
   margin: 0 auto;
   display: block;
 }
