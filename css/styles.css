@@ -25,6 +25,10 @@ a {
   text-decoration: none;
 }
 
+img {
+  display: block;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -148,6 +152,7 @@ a {
   margin: 0 auto;
   margin-bottom: 48px;
   max-width: 496px;
+  min-width: 169px;
 }
 
 .main-title-btn {
@@ -276,9 +281,7 @@ a {
 }
 
 .portfolio-description {
-  padding-top: 32px;
-  padding-bottom: 32px;
-  padding-left: 16px;
+  padding: 32px 16px;
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
@@ -289,7 +292,6 @@ a {
 }
 
 .portfolio-image {
-  display: block;
 }
 
 .portfolio-item-name {
@@ -314,20 +316,16 @@ a {
 
 .footer {
   background: #2e2f42;
+  padding: 100px 0;
 }
 
 .footer-logo {
   margin-bottom: 16px;
-  display: block;
+  display: inline-block;
 }
 
 .footer-logo .footer-logo-color {
   color: #f4f4fd;
-}
-
-.footer-wrap {
-  padding-top: 100px;
-  padding-bottom: 100px;
 }
 
 .footer-text {
